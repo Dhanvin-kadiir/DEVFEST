@@ -117,24 +117,24 @@ function Hero() {
           <div className="relative">
             {/* Main Title */}
             <h1
-              ref={titleRef}
-              className="font-black text-7xl md:text-[12vw] z-10 relative glitch-text"
-            >
-              DEVFEST'24
-            </h1>
-            {/* Glitch Layers */}
-            <div
-              ref={(el) => (glitchLayers.current[0] = el)}
-              className="glitch-layer text-7xl md:text-[12vw] text-red-500 absolute top-0 left-0"
-            >
-              DEVFEST'24
-            </div>
-            <div
-              ref={(el) => (glitchLayers.current[1] = el)}
-              className="glitch-layer text-7xl md:text-[12vw] text-blue-500 absolute top-0 left-0"
-            >
-              DEVFEST'24
-            </div>
+  ref={titleRef}
+  className="font-black text-5xl sm:text-6xl md:text-7xl lg:text-[10vw] xl:text-[12vw] z-10 relative glitch-text"
+>
+  DEVFEST'24
+</h1>
+<div
+  ref={(el) => (glitchLayers.current[0] = el)}
+  className="glitch-layer text-5xl sm:text-6xl md:text-7xl lg:text-[10vw] xl:text-[12vw] text-red-500 absolute top-0 left-0"
+>
+  DEVFEST'24
+</div>
+<div
+  ref={(el) => (glitchLayers.current[1] = el)}
+  className="glitch-layer text-5xl sm:text-6xl md:text-7xl lg:text-[10vw] xl:text-[12vw] text-blue-500 absolute top-0 left-0"
+>
+  DEVFEST'24
+</div>
+
           </div>
           {/* Subtitle Animation */}
           <p
